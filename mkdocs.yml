@@ -1,0 +1,28 @@
+site_name: Lindy Hop 練習筆記
+site_description: 上課後複習筆記整理
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: 切換成深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: 切換成淺色模式
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.top
+    - navigation.instant
+
+markdown_extensions:
+  - tables
+  - admonition
